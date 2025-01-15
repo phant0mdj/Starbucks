@@ -1,0 +1,349 @@
+@media (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .image{
+        width: 271px;
+        height: 381;
+    }
+    .main__content{
+        flex-wrap: wrap;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0  ;
+    }
+    .control{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center ;
+        justify-content: center;
+    }
+    .content{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        width: 600px;
+    }
+    .elipse,
+    .png,
+    .pnn,   
+    .elipse1{
+        display: none;
+    }
+    .block{
+        padding: 0;
+    }
+    .blocks{
+        padding: 0;
+    }
+    .blockss{
+        padding: 0;
+    }
+    .we,
+    .green,
+    .white,
+    .red{
+        display: none;
+    }
+
+    .burger-btn{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        max-width: 100%;
+        height: 100%;
+        background: black;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0;
+        transition: .4s;
+        transform: translateX(100%);
+    }
+    .menu__item{
+        margin: 15px;
+    }
+    .menu_active{
+        display: flex;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    .nav__content{
+        justify-content: space-between;
+    }
+}
+@media (max-width:720px){
+    .title{
+        font-size: 40px;
+    }
+    .main_control{
+        align-items: center;
+        justify-content: center;
+    }
+    .main__title2{
+        width: 450px;
+    }
+    .logo{
+        margin-right: 30px;
+        margin-left: 15px;
+    }
+    .nav__content{
+        padding-bottom: 50px;
+    }
+    .button{
+        font-size: 19px;
+        padding: 20px 50px;
+    }
+
+}
+@media (max-width: 460px){
+    .logo{
+        margin-right: 0;
+    }
+    .title{
+        font-size: 40px;
+        width: 300px;
+        padding-top: 30px;
+    }
+    .spaa{
+        font-size: 40px;
+    }
+    .control{
+        flex-direction: column-reverse;
+    }
+    .text{
+        font-size: 12px;
+        width: 352px;
+        margin: 34px 0;
+    }
+    .button:first-of-type{
+        font-size: 16px;
+        padding: 13px 52px;
+    }
+    .button:last-of-type{
+        font-size: 16px;
+        padding: 13px 36px;
+    }
+    .mini__text{
+        font-size: 41px;
+    }
+    .mini__text1{
+        font-size: 12px;
+    }
+    .content{
+        width: 218px;
+        margin-left: 120px;
+    }
+    .love{
+        width: 85px;
+        height: 107px;
+    }
+    .love:last-of-type{
+        width: 123px;
+        height: 89px;
+    }
+    .h2{
+        font-size: 18px;
+    }
+    .p:last-of-type{
+        font-size: 12px;
+    }
+    .block{
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+    .blocks{
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+    .blockss{
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+    .item{
+        margin: 0;
+    }
+    .main_img{
+        width: 200px ;
+        height: 260px;
+    }
+    .man{
+        width: 85px;
+        height: 85px;
+    }
+    .main__left__content{
+        margin: 0 auto;
+    }
+    .main__title{
+        font-size: 48px;
+        width: 400px;
+    }
+    .spaas{
+        font-size: 48px;
+    }
+    .cook{
+        width: 255px;
+        height: 163px;
+    }
+    .main__mini{
+        font-size: 14px;
+        padding: 11px 25px;
+    }
+    .icon{
+        font-size: 14px;
+    }
+    .icons{
+        top: 73%;
+        right: 45%;
+    }
+    .main__title1{
+        font-size: 53px;
+        text-align: center;
+    }
+    .ctrl{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .main_image{
+        width: 120px;
+        height: 160px;
+    }
+    .h3{
+        font-size: 21px;
+        margin-top: -10px;
+    }
+    .slider_text{
+        font-size: 13px;
+        width: 142px;
+    }
+    .mini_sl{
+        font-size: 21px;
+        margin-right: 23px;
+    }
+    .sl_mini{
+        font-size: 13px;
+    }
+    .perexod{
+        font-size: 11px;
+        padding: 9px 25px;
+    }
+    .slider{
+        margin-right: 35px;
+    }
+    .grid{
+        width: 347px;
+        height: 148px;
+    }
+    .grid1{
+        width: 228px;
+        height: 147px;
+    }
+    .grid2{
+        width: 228px;
+        height: 147px;
+    }
+    .grid3{
+        width: 228px;
+        height: 147px;
+    }
+    .ctrl_text{
+        font-size: 18px;
+        margin-bottom: 28px;
+    }
+    .ctrl_text2{
+        font-size: 18px;
+        width: 190px;
+        margin-bottom: 28px;
+    }
+    .ctrl_text1{
+        font-size: 18px;
+        width: 136px;
+        margin-bottom: 28px;
+    }
+    .tuda{
+        font-size: 13px;
+        padding: 11px 30px;
+    }
+    .main_control{
+        align-items: center;
+        justify-content: center;
+    }
+    .main__title2{
+        font-size: 53px;
+    }
+    .upravleniye{
+        flex-wrap: wrap;
+    }
+    .mn{
+        width: 160px;
+        height: 234px;
+    }
+    .nice{
+        width: 85px;
+        height: 85px;
+    }
+    .main_right_content{
+        margin: 0 auto;
+    }
+    .main_name{
+        font-size: 48px;
+        padding-bottom: 36px;
+    }
+    .main_silka{
+        padding-bottom: 30px;
+    }
+    .obj{
+        font-size: 48px;
+    }
+    .main_text{
+        font-size: 14px;
+        width: 320px;
+        padding-bottom: 28px;
+    }
+    .main_left_content{
+        margin-left: 15px;
+    }
+    .silka{
+        font-size: 21px;
+    }
+    .ic{
+        font-size: 30px;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer_block{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 400px){
+    .main__right__content{
+        margin-left: 40px ;
+    }
+    .slider{
+        margin-right: 25px;
+    }
+    .slider_text{
+        font-size: 10px;
+    }
+    .mini_sl{
+        font-size: 17px;
+    }
+    .slider_mini_text{
+        margin-bottom: 10px;
+    }
+    .content{
+        margin: 0 auto;
+    }
+    .slick-slider{
+        max-width: 380px;
+    }
+}
